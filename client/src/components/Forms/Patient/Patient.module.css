@@ -1,0 +1,36 @@
+
+#sectionPatient{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#patient-form, #patients-list {
+    padding: 20px;
+}
+h2{
+    padding: 1rem;
+}
+
+form input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 300px;
+    max-width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: var(--blue);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+button:hover {
+    background-color: var(--light-blue);
+}
+.button-delete,.button-update{
+    margin: 0 0.3rem;
+}

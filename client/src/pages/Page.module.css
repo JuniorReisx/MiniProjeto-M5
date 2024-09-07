@@ -3,3 +3,6 @@
     background-color: var(--gray-lightest);
 
 }
+main{
+    padding: 1rem 0.7rem;
+}
