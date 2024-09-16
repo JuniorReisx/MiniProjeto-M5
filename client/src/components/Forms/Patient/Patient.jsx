@@ -1,3 +1,4 @@
+import { Button } from '../../button';
 import './Patient.module.css';
 
 export default function PatientForm(){
@@ -10,7 +11,7 @@ export default function PatientForm(){
             <input type="text" id="gender" placeholder="Gender" />
             <input type="text" id="phoneNumber" placeholder="Phone Number" />
             <input type="text" id="sickness" placeholder="Sickness" />
-            <button type="submit">Submit</button>
+              <Button type={"yellow"} title={"Submit"}/>
           </form>
        </div>
     </>
