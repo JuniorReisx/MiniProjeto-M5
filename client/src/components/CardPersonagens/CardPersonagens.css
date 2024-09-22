@@ -1,0 +1,54 @@
+.cards-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2rem;
+  border-radius: 1rem;
+}
+.updateButton {
+  margin: 1rem;
+}
+.card {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  width: 300px;
+  height: 380px;
+  margin: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background-color: var(--blue-darker);
+}
+
+.card__img {
+  height: 192px;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card_imgProfile {
+  border-radius: 1rem 1rem 0rem 0rem;
+  width: 100%;
+  height: 100%;
+}
+
+.card__avatar {
+  position: absolute;
+  width: 114px;
+  height: 114px;
+  background: var(--gray-lightest);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: calc(50% - 57px);
+}
+
+.card__title {
+  margin-top: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--gray-darkest);
+}
