@@ -1,31 +1,36 @@
-import './Page.module.css'
-import Header from '../components/Header/Header.jsx'
-import PatientForm from '../components/Forms/Patient/Patient.jsx'
-import DoctorForm from '../components/Forms/Doctor/Doctor.jsx'
+import "./Page.module.css";
+import Header from "../components/Header/Header.jsx";
+import PatientForm from "../components/Forms/Patient/Patient.jsx";
+import { CardPersonagens } from "../components/CardPersonagens/CardPersonagens.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import GenderSearch from "../components/InputPatient/InputGenderPatient/InputGenderPatient.jsx";
+import CPFSearch from "../components/InputPatient/InputCPFPatient/InputCPFPatient.jsx";
 
 function Page() {
-
-
   return (
     <>
-    <Header/>
-    <main>
+      <header>
+        <Header />
+      </header>
+      <main>
+        <section>
+          <PatientForm />
+        </section>
+        <section>
+          <CardPersonagens />
+        </section>
+      </main>
       <section>
-        <section className='section_patient'>
-        <PatientForm/>
-
-        </section>
-        
-        <section className='section_doctor'>
-        <DoctorForm/>
-        </section>
-
+        <CPFSearch />
       </section>
- 
-    </main>
-
+      <section>
+        <GenderSearch />
+      </section>
+      <footer>
+        <Footer />
+      </footer>
     </>
-  )
+  );
 }
 
-export default Page
+export default Page;
