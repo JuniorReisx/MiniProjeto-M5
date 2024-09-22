@@ -1,57 +1,57 @@
-import { database } from '../database/db.js'
-import { DataTypes } from 'sequelize'
+import { database } from "../database/db.js";
+import { DataTypes } from "sequelize";
 
 const Patient = database.define(
-  'Patient',
+  "Patient",
   {
     id: {
       type: DataTypes.INTEGER,
       primaryKey: true,
       autoIncrement: true,
-      allowNull: false
+      allowNull: false,
     },
     codePatient: {
       type: DataTypes.STRING,
       allowNull: false,
-      unique: true
+      unique: true,
     },
     name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     age: {
       type: DataTypes.INTEGER,
-      allowNull: false
+      allowNull: false,
     },
     gender: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     phoneNumber: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     cpf: {
       type: DataTypes.STRING,
       allowNull: false,
-      unique: true
+      unique: true,
     },
     address: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     },
     emergencyContact: {
       type: DataTypes.STRING,
-      allowNull: true
+      allowNull: true,
     },
     sickness: {
       type: DataTypes.STRING,
-      allowNull: true
-    }
+      allowNull: true,
+    },
   },
   {
-    timestamps: false
+    timestamps: false,
   }
-)
+);
 
-export { Patient }
+export { Patient };
