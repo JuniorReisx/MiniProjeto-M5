@@ -1,0 +1,22 @@
+:root {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  color: var(--gray-lightest);
+  background-color: var(--blue-darker);
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
