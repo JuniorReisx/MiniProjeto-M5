@@ -24,7 +24,7 @@ Este sistema hospitalar fullstack permite o gerenciamento eficiente e seguro das
 
 ## Utilidade do Sistema
 
-1. **Gerenciamento de Pacientes**: Facilita o registro, atualização e consulta das informações dos pacientes, melhorando a eficiência do serviço e reduzindo a probabilidade de erros médicos.
+1. **Gerenciamento de Pacientes**: Facilita o registro e consulta das informações dos pacientes, melhorando a eficiência do serviço e reduzindo a probabilidade de erros médicos.
 
 Este sistema tem como objetivo melhorar a gestão hospitalar, tornando-a mais eficiente, precisa e confiável, contribuindo para um melhor atendimento ao paciente e gestão de recursos.
 
