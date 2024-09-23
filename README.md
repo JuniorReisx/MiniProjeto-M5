@@ -45,6 +45,9 @@ Este sistema tem como objetivo melhorar a gestão hospitalar, tornando-a mais ef
 1. Clone o repositório:
    ```bash
    git clone https://github.com/JuniorReisx/Hospital-System.git
+
+   npm install
    
    npm run dev (dentro da pasta client)
+   
    npm start (dentro da pasta server)
