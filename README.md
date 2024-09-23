@@ -6,6 +6,10 @@ Este projeto é um sistema hospitalar desenvolvido com uma arquitetura fullstack
 
 https://mini-projeto-m5-f6km.vercel.app/
 
+##### Publicação Linkedin
+
+https://www.linkedin.com/posts/gil-maik-junior_ol%C3%A1-rede-hospital-system-activity-7243982903074787329-9jrC?utm_source=share&utm_medium=member_desktop
+
 ## Problema e Solução
 
 ### Problema
