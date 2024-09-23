@@ -28,10 +28,21 @@ Este sistema hospitalar fullstack permite o gerenciamento eficiente e seguro das
 
 Este sistema tem como objetivo melhorar a gestão hospitalar, tornando-a mais eficiente, precisa e confiável, contribuindo para um melhor atendimento ao paciente e gestão de recursos.
 
-## Tecnologias Utilizadas
-- **Frontend**: React.js e CSS 
-- **Backend**: Node.js, Express.js, nodemon  
-- **Banco de Dados**: PostgreSQL
+### Frontend:
+- **React.js**: 5.4.4
+- **Axios**: 1.7.7
+- **CSS**: Utilizado para estilização da interface
+
+### Backend:
+- **Node.js**: v20.11.0
+- **Express.js**: 3.1.4
+- **Nodemon**: 3.1.4 (utilizado para reiniciar o servidor automaticamente durante o desenvolvimento)
+- **Sequelize**: ^6.37.3 (ORM para integração com banco de dados)
+- **Dotenv**: 16.4.5 (gerenciamento de variáveis de ambiente)
+- **Cors**: 2.8.5 (habilita o compartilhamento de recursos entre origens diferentes)
+
+### Banco de Dados:
+- **PostgreSQL**: 8.12.0
 
 ## Funcionalidades
 
@@ -51,3 +62,6 @@ Este sistema tem como objetivo melhorar a gestão hospitalar, tornando-a mais ef
    npm run dev (dentro da pasta client)
    
    npm start (dentro da pasta server)
+
+
+![Captura de Tela (574)](https://github.com/user-attachments/assets/63a020dd-e10b-4a4d-81de-470ee493f68d)
